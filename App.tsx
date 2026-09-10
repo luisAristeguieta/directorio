@@ -1,6 +1,7 @@
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 import { View, StyleSheet, StatusBar, useColorScheme } from 'react-native';
 import EmploeyeeList from './src/components/EmploeyeeList';
+import CompanyHeader from './src/components/CompanyHeader';
 
 export default function App() {
   const isDarkMode = useColorScheme() === "dark";
@@ -12,7 +13,11 @@ export default function App() {
         backgroundColor={isDarkMode ? styles.statusDark.backgroundColor : styles.statusLight.backgroundColor}
       />
       <SafeAreaView style={styles.safeArea} edges={['top', 'bottom', 'left', 'right']}>
-        <View style={styles.contentWrapper}>
+        <View style={styles.headerSection}>
+          <CompanyHeader />
+        </View>
+
+        <View style={styles.listSection}>
           <EmploeyeeList />
         </View>
       </SafeAreaView>
@@ -36,10 +41,13 @@ const styles = StyleSheet.create({
     flex: 1,
     width: '100%',
   },
-  contentWrapper: {
-    flex: 1,
+  headerSection: {
+    flex: 0.3, // 30% superior para el encabezado corporativo
     width: '100%',
-    paddingVertical: 10,
+  },
+  listSection: {
+    flex: 0.7, // 70% restante para el directorio de empleados
+    width: '100%',
   },
   statusLight: {
     backgroundColor: '#FFFFFF',

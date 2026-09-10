@@ -5,7 +5,7 @@ export default function CompanyHeader() {
   const isDarkMode = useColorScheme() === "dark";
 
   const logoSource = isDarkMode ? require("../assets/images/LuminaDark.png") 
-  : require("../assets/images/LuminaLight.png"); // Operador ternario para seleccionar la imagen según el modo de color
+  : require("../assets/images/LuminaLight.png"); //
 
   return (
     <View style={styles.container}>
