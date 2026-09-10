@@ -26,6 +26,14 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+  headerSection: {
+    flex: 0.3, // 30% superior para el encabezado corporativo
+    width: '100%',
+  },
+  listSection: {
+    flex: 0.7, // 70% restante para el directorio de empleados
+    width: '100%',
+  },
   container: {
     flex: 1,
     alignItems: 'center',
@@ -39,14 +47,6 @@ const styles = StyleSheet.create({
   },
   safeArea: {
     flex: 1,
-    width: '100%',
-  },
-  headerSection: {
-    flex: 0.3, // 30% superior para el encabezado corporativo
-    width: '100%',
-  },
-  listSection: {
-    flex: 0.7, // 70% restante para el directorio de empleados
     width: '100%',
   },
   statusLight: {
