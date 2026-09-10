@@ -6,7 +6,7 @@ Para la realización de este proyecto se usa la marca automotriz **Lumina Motors
 
 
 ## 🚗 Descripción del Proyecto
-Se muestran dos areas, estas dividen la interfaz de forma proporcioanl mediante el uso de Flexbox, distribuyendose de la seguiente manera: 
+Se muestran dos áreas, estas dividen la interfaz de forma proporcional mediante el uso de Flexbox, distribuyéndose de la seguiente manera: 
 - **30% Superior (`CompanyHeader`):** Nombre empresarial **Lumina**, mostrando el logo corporativos y eslogan:*"Engineered for Power and Motion"*.
 - **70% Inferior (`EmployeeList`):** Directorio de los empleados de ventas y operaciones de la concesionaria (Asesores Comerciales, Especialistas Financieros, Gerentes de Flota), renderizado con `FlatList` y tarjetas modulares (`ProfileCard`).
 
@@ -39,7 +39,3 @@ npx expo start --tunnel
 
 4. Ejecuta en tu móvil con la app Expo Go:
 Escanea el código QR resultante o abre el enlace generado desde la aplicación Expo Go en Android o iOS.
-
-
-
-
