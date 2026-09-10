@@ -12,7 +12,7 @@ export default function CompanyHeader() {
       <Image
         source={logoSource}
         style={styles.logo}
-        resizeMode="cover"
+        resizeMode="contain"
       />
       <Text style={[styles.slogan, isDarkMode ? styles.sloganDark : styles.sloganLight]}>
         Engineered for Power and Motion
