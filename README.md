@@ -39,3 +39,9 @@ npx expo start --tunnel
 
 4. Ejecuta en tu móvil con la app Expo Go:
 Escanea el código QR resultante o abre el enlace generado desde la aplicación Expo Go en Android o iOS.
+
+## 📱 Vista Previa de la Aplicación
+
+| Modo Oscuro | Modo Claro |
+| :---: | :---: |
+| <img src="./Entregables/Capture%20%23%201%20Diseño%20en%20Expo%20Go.PNG" width="280" alt="Modo Oscuro" /> | <img src="./Entregables/Capture%20%23%201a%20Diseño%20en%20Expo%20Go%20Tema%20Claro.PNG" width="280" alt="Modo Claro" /> |
