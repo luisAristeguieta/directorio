@@ -5,37 +5,37 @@ const EMPLEADOS = [
   {
     id: "1",
     nombre: "Luis Jimenez",
-    cargo: "Frontend Developer",
+    cargo: "Gerente General de Ventas",
     fotoUrl: "https://cdn.create.vista.com/api/media/small/191298750/stock-photo-businessman-working-on-the-floor-at-home"
   },
   {
     id: "2",
     nombre: "Ana Gonzáles",
-    cargo: "UI/UX Designer",
+    cargo: "Especialista en Financiamiento Automotriz",
     fotoUrl: "https://cdn.create.vista.com/api/media/small/255309356/stock-photo-attractive-woman-sitting-table-laptop-smiling-looking-camera"
   },
   {
     id: "3",
     nombre: "Alberto Guerra",
-    cargo: "Backend Engineer",
+    cargo: "Jefe de Taller y Servicio Técnico",
     fotoUrl: "https://cdn.create.vista.com/api/media/small/188227026/stock-photo-sick-businessman-working-from-home-due-to-flu-sickness"
   },
   {
     id: "4",
     nombre: "María León",
-    cargo: "DevOps & Cloud Specialist",
+    cargo: "Asesora Comercial de Vehículos Nuevos",
     fotoUrl: "https://cdn.create.vista.com/api/media/medium/410285684/stock-photo-excited-freelancer-looking-camera-while-sitting-couch-kitchen-laptop?token="
   },
   {
     id: "5",
     nombre: "Carlos Mendoza",
-    cargo: "Mobile Developer (React Native)",
+    cargo: "Consultor de Flotas Corporativas",
     fotoUrl: "https://cdn.create.vista.com/api/media/medium/278240252/stock-photo-handsome-asian-man-talking-smartphone-smiling-camera-while-sitting-workplace?token="
   },
   {
     id: "6",
     nombre: "Sofía Herrera",
-    cargo: "Product Manager",
+    cargo: "Coordinadora de Experiencia al Cliente y Entregas",
     fotoUrl: "https://cdn.create.vista.com/api/media/small/233899372/stock-photo-young-asian-businesswoman-headset-using-laptop-workplace"
   }
 ];
